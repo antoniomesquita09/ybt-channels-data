@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: postgres
+    environment:
+      POSTGRES_DB: ytbchannels
+      POSTGRES_USER: ytbchannels
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
